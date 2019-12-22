@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Armstrong-Number</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+    <div class="content">
+      <h1>Todo List</h1>
+
+      <div class="container">
+        <input type="text" class="form-control" id="search" aria-describedby="emailHelp" placeholder="Search..." name='search' onkeyup="search(event);">
+        <input type="text" class="form-control" id="input" aria-describedby="emailHelp" placeholder="Todo.." name='input' required>
+        <button type="button" name="button" onclick="addTodo(event)" class="button" id="button">Check</button>
+      </div>
+      <p id='error'></p>
+      </div>
+    </div>
+    <div class="container">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Todo</th>
+            <th scope="col">Date</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="trbody">
+        </tbody>
+      </table>
+    </div>
+    <script type="text/javascript" src="index.js">
+
+    </script>
+  </body>
+</html>
